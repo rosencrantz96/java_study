@@ -3,7 +3,20 @@ package test.ch06;
 public class CalculatorEX {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// 객체랑 인스턴스는 비슷한 말이지만! 
+		// 필드 메소드 -> 객체를 사용해야만 접근할 수 있다
+		
+		Calculator myCalc = new Calculator(); // 인스턴스: 객체를 할당받은 상태... myCalc는 인스턴스에 해당 
+		
+		// 리턴을 받을 매개변수를 만들어준다. 타입 쓰고 result1
+		double result1 = myCalc.areaRectangle(10); // 메소드에 여기서 준 매개변수 10이 들어감! 
+		System.out.println(result1);
+		
+		double result2 = myCalc.areaRectangle(10, 20); // 10은 width에, 20은 height에 들어감! 
+		System.out.println(result2);
+		
+		
+		/*
 		Calculator myCalc = new Calculator(); // 생성자는 알아서 만들어짐. 메소드만 이용하면 됨. (필드에서 가져옴)
 		
 		myCalc.powerOn();
@@ -16,6 +29,7 @@ public class CalculatorEX {
 		System.out.println(result2);
 		
 		myCalc.powerOff();
+		*/
 	}
 
 }

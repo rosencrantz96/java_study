@@ -1,7 +1,7 @@
 package test.ch06;
 
 public class Car { // 필드에 속성을 만들기? // 클래스: 설계도 (Car라는 설계도를 만든 것), new (객체 생성) => 자동차를 만드는 것? 찍어내는 것?? 
-	//1. 필드: 객체의 데이터를 저장하는 곳 (필드 선언)
+	// 1. 필드: 객체의 데이터를 저장하는 곳 (필드 선언)
 	String company = "현대자동차";
 	String model;
 	String color;
