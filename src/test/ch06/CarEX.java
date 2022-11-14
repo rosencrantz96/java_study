@@ -11,8 +11,6 @@ public class CarEX {
 		Car myCar = new Car("그랜저", "검정", 250); // 얘는 10번지로 가야하고 
 //		Car myCar2 = new Car(); // 얘는 20번지로 가야 함. 완전히 다른 객체임! (객체는 같은 객체지만! 다르다!!)
 		
-		
-		
 		System.out.println(myCar.company); // 필드에 할당되어 있기 때문에 출력!! 
 		System.out.println(myCar.model);
 		System.out.println(myCar.color);
