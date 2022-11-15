@@ -1,6 +1,5 @@
 package test.ch06;
 
-import java.net.SocketOption;
 
 public class Calculator { // 순수하게 객체 생성을 위한 클래스를 만드는 것. (main 체크 ㄴㄴ)
 	// 메소드 오버로딩: 같은 이름의 메소드 여러개를 만든다.

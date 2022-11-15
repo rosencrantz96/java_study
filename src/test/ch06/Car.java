@@ -7,8 +7,16 @@ public class Car { // 필드에 속성을 만들기? // 클래스: 설계도 (Ca
 	String color;
 	int maxSpeed;
 	int speed;
+	// static은 전역 변수... (함수의 외부에서 선언된 변수)
+	static int numbering = 0;
 //	boolean start = ; // 시동 여부 
 	
+	
+	// 생성자... 
+	Car() {
+		numbering++;
+	}
+	  
 	
 	
 	// 2. 생성자 (같은 이름으로 해줘야 함): 자바는... 생성자를 명시하지 않으면 컴파일 과정에서 알아서 생성자를 생성해준다.
@@ -32,7 +40,7 @@ public class Car { // 필드에 속성을 만들기? // 클래스: 설계도 (Ca
 		// 여기에 받아온 값을 각각 넣어주는 것임. // 그럼 필드에 값이 들어감! (위에 필드) 
 		// 객체가 생성될 때 실행되는 코드?
 		this.model = model; // this.객체 안에 있는 (클래스 안에 있는 필드) = 생성자를 생성할 때 매개변수로 받아온 애들 
-		this.color = color;
+		this.color = color; // this: '이 객체' 라는 뜻
 		this.maxSpeed = maxSpeed;
 	}
 }
