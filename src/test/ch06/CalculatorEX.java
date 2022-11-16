@@ -2,7 +2,7 @@ package test.ch06;
 
 public class CalculatorEX {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { // public: 어디에서나 접근 가능, static: 인스턴스가 없어도 메인 메소드 실행 가능하게 해 줌, main: static 메소드 
 		// 객체랑 인스턴스는 비슷한 말이지만! 
 		// 필드 메소드 -> 객체를 사용해야만 접근할 수 있다
 		
