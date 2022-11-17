@@ -5,6 +5,7 @@ public class SmartPhone extends Phone {
 	// 필드
 	public boolean wifi;
 	
+
 	// 생성자
 	public SmartPhone(String model, String color) {
 		super(); // 부모 생성자 호출 (매개변수가 없으면 이런 식으로 써주면 된다.) 
