@@ -8,5 +8,4 @@ public class Computer extends Calculator {
 		System.out.println("Computer 객체의 areaCircl() 실행");
 		return Math.PI * r * r;
 	}
-	
 }

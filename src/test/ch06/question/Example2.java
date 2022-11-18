@@ -16,7 +16,6 @@ public class Example2 {
 				max = arr[i];
 			} // 배열 값이랑 비교 
 		}
-		
 		return max;
 	}
 	
