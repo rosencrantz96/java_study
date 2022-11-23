@@ -15,7 +15,7 @@ public class TryWithResourceEx {
 			String data = res.read2(); // NumberFormatException 에러 발생 
 			int value = Integer.parseInt(data); // int형 변환
 		} catch (Exception e) {
-			System.out.println(e.getMessage());
+			e.getMessage();
 		}
 	}
 

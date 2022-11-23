@@ -6,6 +6,7 @@ public class ThrowEx {
 		try {
 			findClass(); // 메소드를 호출한 곳에서 예외처리 발생 
 		} catch (ClassNotFoundException e) {
+			System.out.println("클래스가 존재하지 않습니다.");
 			e.printStackTrace();
 		}
 	}
