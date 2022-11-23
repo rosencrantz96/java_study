@@ -8,6 +8,7 @@ public class ExceptionEx2 {
 			System.out.println("java.lang.String 클래스가 존재합니다.");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
+			System.out.println("클래스가 존재하지 않습니다.");
 			e.printStackTrace();
 		} 
 	}
