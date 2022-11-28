@@ -9,7 +9,7 @@ public class DateOpEx2 {
 		LocalDateTime now = LocalDateTime.now(); // 현재 날짜 시간 
 		
 		// 데이터 포맷 형태
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy.MM.dd a HH:mm:ss");
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy.MM.dd E HH:mm:ss");
 		System.out.println("현재시간: " + now.format(dtf));
 		
 		LocalDateTime result1 = now.plusYears(1); // 1년을 더함 
