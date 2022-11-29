@@ -10,7 +10,6 @@ public class GenericEx {
 		CarAgency carAgency = new CarAgency();
 		Car car = carAgency.rent();
 		car.run();
-		
 	}
 
 }
