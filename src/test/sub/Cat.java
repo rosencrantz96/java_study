@@ -1,4 +1,4 @@
-package studentPracticeTest.test12;
+package test.sub;
 
 public class Cat extends Animal{
 

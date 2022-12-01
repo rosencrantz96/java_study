@@ -1,4 +1,4 @@
-package studentPracticeTest.test01;
+package test.sub;
 
 public class test01 {
 	

@@ -1,4 +1,4 @@
-package studentPracticeTest.test040506;
+package test.sub;
 
 public class Student {
 	// 필드 

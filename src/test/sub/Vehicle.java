@@ -1,4 +1,4 @@
-package studentPracticeTest.test13;
+package test.sub;
 
 public interface Vehicle {
 	void run();
